@@ -12,7 +12,9 @@
           <param name="plugin.docker.imageId" value="alpine" />
           <param name="plugin.docker.imagePlatform" value="linux" />
           <param name="plugin.docker.pull.enabled" value="true" />
-          <param name="script.content"><![CDATA[echo "This line gets executed"; sleep 10; echo "This also works"
+          <param name="script.content"><![CDATA[echo "This line gets executed"; 
+sleep 10; 
+echo "This also works"
 echo "This doesn't get into .cmd"]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
