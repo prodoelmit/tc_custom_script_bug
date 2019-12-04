@@ -13,6 +13,7 @@
           <param name="plugin.docker.imagePlatform" value="linux" />
           <param name="plugin.docker.pull.enabled" value="true" />
           <param name="script.content"><![CDATA[echo 13539
+sleep 10
 echo 83719]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
