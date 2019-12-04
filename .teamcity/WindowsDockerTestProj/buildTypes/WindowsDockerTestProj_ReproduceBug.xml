@@ -3,7 +3,9 @@
   <name>Reproduce bug</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="teamcity.dont.delete.temp.files" value="true" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_83" name="" type="simpleRunner">
         <parameters>
