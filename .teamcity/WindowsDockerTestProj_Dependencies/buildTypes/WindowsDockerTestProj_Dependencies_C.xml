@@ -8,7 +8,7 @@
       <option name="showDependenciesChanges" value="true" />
     </options>
     <parameters>
-      <param name="baz" value="%dep.WindowsDockerTestProj_Dependencies_B.foo%" />
+      <param name="reverse.dep.WindowsDockerTestProj_Dependencies_B.foo" value="baz" />
     </parameters>
     <build-runners />
     <vcs-settings />
