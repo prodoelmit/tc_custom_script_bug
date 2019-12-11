@@ -3,7 +3,9 @@
   <name>B</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="foo" value="" />
+    </parameters>
     <build-runners />
     <vcs-settings />
     <requirements />
