@@ -8,6 +8,7 @@
       <option name="showDependenciesChanges" value="true" />
     </options>
     <parameters>
+      <param name="reverse.dep.*.foo" value="bad" />
       <param name="reverse.dep.WindowsDockerTestProj_Dependencies_B.foo" value="baz" />
     </parameters>
     <build-runners />
