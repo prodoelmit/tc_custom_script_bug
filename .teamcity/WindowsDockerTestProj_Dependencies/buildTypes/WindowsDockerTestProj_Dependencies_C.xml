@@ -9,7 +9,7 @@
     </options>
     <parameters>
       <param name="reverse.dep.WindowsDockerTestProj_Dependencies_A.foobar" value="barbar" spec="text display='normal' label='Aparam' validationMode='any'" />
-      <param name="reverse.dep.WindowsDockerTestProj_Dependencies_B.foo" value="baz" />
+      <param name="reverse.dep.WindowsDockerTestProj_Dependencies_B.foo" value="baz" spec="text display='normal' label='Bparam' validationMode='any'" />
     </parameters>
     <build-runners />
     <vcs-settings />
