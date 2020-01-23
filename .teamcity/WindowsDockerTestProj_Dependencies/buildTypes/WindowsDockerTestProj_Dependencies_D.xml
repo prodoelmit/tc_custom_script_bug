@@ -5,6 +5,7 @@
   <settings>
     <options>
       <option name="buildConfigurationType" value="COMPOSITE" />
+      <option name="buildNumberPattern" value="%dep.WindowsDockerTestProj_Dependencies_A.build.number%" />
       <option name="showDependenciesChanges" value="true" />
     </options>
     <parameters>
