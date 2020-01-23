@@ -7,7 +7,7 @@
       <option name="checkoutDirectory" value="%teamcity.agent.work.dir%/A" />
     </options>
     <parameters>
-      <param name="foo" value="" />
+      <param name="foo" value="%system.value1%" />
       <param name="system.value1" value="bar" />
       <param name="system.value2" value="bar" />
     </parameters>
