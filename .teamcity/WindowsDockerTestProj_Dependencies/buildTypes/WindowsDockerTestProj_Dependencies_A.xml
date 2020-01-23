@@ -6,7 +6,9 @@
     <options>
       <option name="checkoutDirectory" value="%teamcity.agent.work.dir%/A" />
     </options>
-    <parameters />
+    <parameters>
+      <param name="system.value1" value="bar" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_5" name="" type="simpleRunner">
         <parameters>
