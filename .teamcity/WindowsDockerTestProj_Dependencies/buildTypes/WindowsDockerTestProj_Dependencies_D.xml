@@ -3,6 +3,10 @@
   <name>D</name>
   <description />
   <settings>
+    <options>
+      <option name="buildConfigurationType" value="COMPOSITE" />
+      <option name="showDependenciesChanges" value="true" />
+    </options>
     <parameters />
     <build-runners />
     <vcs-settings />
