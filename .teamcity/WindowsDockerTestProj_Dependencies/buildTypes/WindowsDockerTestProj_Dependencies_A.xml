@@ -8,6 +8,7 @@
     </options>
     <parameters>
       <param name="system.value1" value="bar" />
+      <param name="system.value2" value="" />
     </parameters>
     <build-runners>
       <runner id="RUNNER_5" name="" type="simpleRunner">
