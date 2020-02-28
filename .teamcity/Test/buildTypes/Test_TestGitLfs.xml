@@ -4,7 +4,17 @@
   <description />
   <settings>
     <parameters />
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_79" name="" type="simpleRunner">
+        <parameters>
+          <param name="plugin.docker.imageId" value="%system.docker.ubuntu.name%" />
+          <param name="plugin.docker.pull.enabled" value="true" />
+          <param name="script.content" value="find ." />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Test_LfsTest" />
     </vcs-settings>
