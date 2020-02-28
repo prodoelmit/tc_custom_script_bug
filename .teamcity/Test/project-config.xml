@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="308cc641-2f34-4188-87e2-890630b71f0e" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
-  <name>WindowsDockerTestProj</name>
+  <name>Test</name>
   <parameters />
   <project-extensions>
     <extension id="PROJECT_EXT_16" type="versionedSettings">
