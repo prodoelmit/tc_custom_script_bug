@@ -8,7 +8,7 @@
       <option name="showDependenciesChanges" value="true" />
     </options>
     <parameters>
-      <param name="branch" value="master" />
+      <param name="branch" value="aa/glibc" />
     </parameters>
     <build-runners />
     <vcs-settings>
