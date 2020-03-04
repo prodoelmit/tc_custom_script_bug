@@ -3,7 +3,9 @@
   <name>C (finish build triggered by A)</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="branch" value="master" />
+    </parameters>
     <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Test_GithubHubot" />
