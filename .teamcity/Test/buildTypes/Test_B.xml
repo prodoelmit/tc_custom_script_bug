@@ -9,7 +9,7 @@
     </options>
     <parameters>
       <param name="branch" value="aa/glibc" />
-      <param name="rev.dep.*.branch" value="aa/glibc" />
+      <param name="reverse.dep.*.branch" value="aa/glibc" />
     </parameters>
     <build-runners />
     <vcs-settings>
