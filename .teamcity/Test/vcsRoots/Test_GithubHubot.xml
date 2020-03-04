@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <vcs-root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="a582fec6-5bd0-4a8a-ac59-7453fbfce3cd" type="jetbrains.git" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
-  <name>github_hubot</name>
+  <name>github_julia</name>
   <param name="agentCleanFilesPolicy" value="ALL_UNTRACKED" />
   <param name="agentCleanPolicy" value="ON_BRANCH_CHANGE" />
   <param name="authMethod" value="ANONYMOUS" />
@@ -8,7 +8,7 @@
   <param name="ignoreKnownHosts" value="true" />
   <param name="submoduleCheckout" value="CHECKOUT" />
   <param name="teamcity:branchSpec" value="refs/heads/(*)" />
-  <param name="url" value="https://github.com/lukefx/hubot-telegram.git" />
+  <param name="url" value="https://github.com/JuliaLang/julia.git" />
   <param name="useAlternates" value="true" />
   <param name="usernameStyle" value="USERID" />
 </vcs-root>
