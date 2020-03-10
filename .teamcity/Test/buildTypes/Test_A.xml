@@ -10,7 +10,11 @@
       <runner id="RUNNER_103" name="" type="simpleRunner">
         <parameters>
           <param name="plugin.docker.imageId" value="alpine" />
-          <param name="script.content" value="find ." />
+          <param name="plugin.docker.imagePlatform" value="linux" />
+          <param name="script.content"><![CDATA[set -x 
+find .
+echo "Hi there"
+pwd]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
