@@ -9,10 +9,10 @@
     <build-runners>
       <runner id="RUNNER_103" name="" type="simpleRunner">
         <parameters>
-          <param name="plugin.docker.imageId" value="alpine" />
+          <param name="plugin.docker.imageId" value="ubuntu" />
           <param name="plugin.docker.imagePlatform" value="linux" />
           <param name="script.content"><![CDATA[set -x 
-ls -lah
+ls -la
 
 find '.' -name "*"
 echo "Hi there"
