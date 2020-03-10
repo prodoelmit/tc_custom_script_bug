@@ -12,6 +12,7 @@
           <param name="plugin.docker.imageId" value="ubuntu" />
           <param name="plugin.docker.imagePlatform" value="linux" />
           <param name="script.content"><![CDATA[set -x 
+sleep 10
 ls -la
 
 find '.' -name "*"
