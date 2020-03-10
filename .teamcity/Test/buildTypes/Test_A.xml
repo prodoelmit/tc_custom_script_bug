@@ -12,7 +12,7 @@
           <param name="plugin.docker.imageId" value="alpine" />
           <param name="plugin.docker.imagePlatform" value="linux" />
           <param name="script.content"><![CDATA[set -x 
-find .
+find '.' -name "*"
 echo "Hi there"
 pwd]]></param>
           <param name="teamcity.step.mode" value="default" />
