@@ -3,28 +3,10 @@
   <name>A</name>
   <description />
   <settings>
-    <disabled-settings>
-      <setting-ref ref="RUNNER_103" />
-    </disabled-settings>
     <parameters>
       <param name="branch" value="master" />
     </parameters>
     <build-runners>
-      <runner id="RUNNER_103" name="" type="simpleRunner">
-        <parameters>
-          <param name="plugin.docker.imageId" value="ubuntu" />
-          <param name="plugin.docker.imagePlatform" value="linux" />
-          <param name="script.content"><![CDATA[set -x 
-sleep 10
-ls -la
-
-find '.' -name "*"
-echo "Hi there"
-pwd]]></param>
-          <param name="teamcity.step.mode" value="default" />
-          <param name="use.custom.script" value="true" />
-        </parameters>
-      </runner>
       <runner id="RUNNER_112" name="Tag this build" type="simpleRunner">
         <parameters>
           <param name="script.content" value="curl  --request POST --header &quot;Authorization: Bearer %system.rest_api_token%&quot; --header &quot;Content-type: text/plain&quot; --data &quot;%build_tag%&quot; &quot;https://teamcity.office.fusioncore.ru/app/rest/builds/id:%teamcity.build.id%/tags&quot;" />
