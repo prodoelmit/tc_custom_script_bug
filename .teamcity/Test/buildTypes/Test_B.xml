@@ -17,6 +17,12 @@
     </vcs-settings>
     <requirements />
     <build-triggers />
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_8" sourceBuildTypeId="Test_B" cleanDestination="false">
+        <revisionRule name="buildTag" revision="qweqwe.tcbuildtag" />
+        <artifact sourcePath="+:*" />
+      </dependency>
+    </artifact-dependencies>
     <dependencies>
       <depend-on sourceBuildTypeId="Test_A">
         <options>
