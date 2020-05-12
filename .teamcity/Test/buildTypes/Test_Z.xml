@@ -18,6 +18,12 @@
       <equals id="RQ_8" name="teamcity.agent.jvm.os.name" value="Linux" />
     </requirements>
     <build-triggers />
+    <artifact-dependencies>
+      <dependency id="ARTIFACT_DEPENDENCY_16" sourceBuildTypeId="Test_Z" cleanDestination="false">
+        <revisionRule name="buildTag" revision="testZ.tcbuildtag" />
+        <artifact sourcePath="+:*" />
+      </dependency>
+    </artifact-dependencies>
     <cleanup />
   </settings>
 </build-type>
