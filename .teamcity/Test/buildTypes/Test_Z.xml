@@ -3,7 +3,9 @@
   <name>Z</name>
   <description />
   <settings>
-    <parameters />
+    <parameters>
+      <param name="build_tag" value="testZ" />
+    </parameters>
     <build-runners>
       <runner id="RUNNER_137" name="" type="simpleRunner">
         <parameters>
