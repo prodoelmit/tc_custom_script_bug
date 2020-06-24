@@ -22,7 +22,7 @@
     </build-runners>
     <vcs-settings />
     <requirements>
-      <equals id="RQ_8" name="teamcity.agent.jvm.os.name" value="Linux" />
+      <equals id="RQ_8" name="teamcity.agent.jvm.os.name" value="Windows 10" />
     </requirements>
     <build-triggers />
     <artifact-dependencies>
