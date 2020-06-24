@@ -19,6 +19,14 @@
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_149" name="qweqwe" type="unity">
+        <parameters>
+          <param name="buildTarget" value="qweqwe" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="unityVersion" value="2019.4.1" />
+          <param name="verbosity" value="normal" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings />
     <requirements>
