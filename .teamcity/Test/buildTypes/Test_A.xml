@@ -10,7 +10,8 @@
     <build-runners>
       <runner id="RUNNER_112" name="Tag this build" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="curl  --request POST --header &quot;Authorization: Bearer %system.rest_api_token%&quot; --header &quot;Content-type: text/plain&quot; --data &quot;%build_tag%&quot; &quot;https://teamcity.office.fusioncore.ru/app/rest/builds/id:%teamcity.build.id%/tags&quot;" />
+          <param name="script.content"><![CDATA[sleep 20
+curl  --request POST --header "Authorization: Bearer %system.rest_api_token%" --header "Content-type: text/plain" --data "%build_tag%" "https://teamcity.office.fusioncore.ru/app/rest/builds/id:%teamcity.build.id%/tags"]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
