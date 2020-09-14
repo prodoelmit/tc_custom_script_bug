@@ -9,6 +9,7 @@
     </options>
     <parameters>
       <param name="branch" value="master" />
+      <param name="reverse.dep.*.branch" value="master" />
     </parameters>
     <build-runners />
     <vcs-settings>
