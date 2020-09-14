@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="f21df099-4506-4f08-aedb-715205ca5edf" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
-  <name>Build arm</name>
+  <name>Test build</name>
   <settings>
     <options>
       <option name="checkoutMode" value="MANUAL" />
