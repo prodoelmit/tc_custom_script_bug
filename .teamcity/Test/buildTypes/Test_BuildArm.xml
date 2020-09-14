@@ -4,7 +4,9 @@
   <settings>
     <parameters />
     <build-runners />
-    <vcs-settings />
+    <vcs-settings>
+      <vcs-entry-ref root-id="Test_GithubHubot" />
+    </vcs-settings>
     <requirements />
     <build-triggers />
     <cleanup />
