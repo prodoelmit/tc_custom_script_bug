@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="4edd5386-1314-4894-87df-18d2027ec0dd" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2020.1/project-config.xsd">
+  <name>Build x86</name>
+  <description />
+  <settings ref="Test_TestBuild">
+    <options>
+      <option name="buildNumberPattern" value="%dep.Test_GetBuildnumber.build.number%1" />
+    </options>
+    <parameters />
+    <build-runners />
+    <vcs-settings />
+    <requirements />
+    <build-triggers />
+    <cleanup />
+  </settings>
+</build-type>
+
