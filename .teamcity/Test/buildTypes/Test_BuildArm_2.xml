@@ -3,6 +3,9 @@
   <name>Build arm</name>
   <description />
   <settings ref="Test_TestBuild">
+    <options>
+      <option name="buildNumberPattern" value="%dep.Test_GetBuildnumber.build.number%1" />
+    </options>
     <parameters />
     <build-runners />
     <vcs-settings />
