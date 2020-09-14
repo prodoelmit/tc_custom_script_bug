@@ -8,7 +8,16 @@
     <parameters>
       <param name="branch" value="master" />
     </parameters>
-    <build-runners />
+    <build-runners>
+      <runner id="RUNNER_169" name="" type="simpleRunner">
+        <parameters>
+          <param name="plugin.docker.imageId" value="%system.docker.ubuntu.name%" />
+          <param name="script.content" value="echo &quot;Hello %build.number%&quot;" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+    </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Test_GithubHubot" />
     </vcs-settings>
