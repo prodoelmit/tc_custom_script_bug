@@ -3,6 +3,7 @@
   <name>Test build</name>
   <settings>
     <options>
+      <option name="buildNumberPattern" value="%dep.Test_GetBuildnumber.build.number%" />
       <option name="checkoutMode" value="MANUAL" />
     </options>
     <parameters>
