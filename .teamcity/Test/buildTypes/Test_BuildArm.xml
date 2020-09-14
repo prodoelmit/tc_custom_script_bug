@@ -5,7 +5,9 @@
     <options>
       <option name="checkoutMode" value="MANUAL" />
     </options>
-    <parameters />
+    <parameters>
+      <param name="branch" value="master" />
+    </parameters>
     <build-runners />
     <vcs-settings>
       <vcs-entry-ref root-id="Test_GithubHubot" />
