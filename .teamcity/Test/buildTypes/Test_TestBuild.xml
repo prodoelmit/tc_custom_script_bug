@@ -22,7 +22,9 @@
     <vcs-settings>
       <vcs-entry-ref root-id="Test_GithubHubot" />
     </vcs-settings>
-    <requirements />
+    <requirements>
+      <equals id="RQ_52" name="teamcity.agent.jvm.os.name" value="Linux" />
+    </requirements>
     <build-triggers />
     <dependencies>
       <depend-on sourceBuildTypeId="Test_GetBuildnumber">
